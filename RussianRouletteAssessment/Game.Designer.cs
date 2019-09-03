@@ -51,6 +51,7 @@
             this.pnl_canvas.Name = "pnl_canvas";
             this.pnl_canvas.Size = new System.Drawing.Size(624, 441);
             this.pnl_canvas.TabIndex = 0;
+            this.pnl_canvas.Paint += new System.Windows.Forms.PaintEventHandler(this.Pnl_canvas_Paint);
             this.pnl_canvas.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnl_canvas_MouseDown);
             // 
             // IntroTimer

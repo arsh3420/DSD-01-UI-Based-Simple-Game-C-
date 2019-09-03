@@ -738,6 +738,11 @@ namespace RussianRouletteAssessment
                 }
             }
         }
+
+        private void Pnl_canvas_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
     class Animation
     {
